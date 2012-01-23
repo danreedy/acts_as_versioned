@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'acts_as_versioned'
-  s.version           = '0.6.0'
+  s.version           = '0.7.0'
   s.date              = '2010-07-19'
   s.rubyforge_project = 'acts_as_versioned'
 
@@ -40,11 +40,11 @@ Gem::Specification.new do |s|
 
   ## List your runtime dependencies here. Runtime dependencies are those
   ## that are needed for an end user to actually USE your code.
-  s.add_dependency('activerecord', ["~> 3.1.0.rc6"])
+  s.add_dependency('activerecord', [">= 3.1.0"])
 
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development
-  s.add_development_dependency('sqlite3-ruby', ["~> 1.3.1"])
+  s.add_development_dependency('sqlite3-ruby', ["> 1.3.1"])
 
   ## Leave this section as-is. It will be automatically generated from the
   ## contents of your Git repository via the gemspec task. DO NOT REMOVE
